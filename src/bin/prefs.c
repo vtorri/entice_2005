@@ -1,7 +1,6 @@
 #include "prefs.h"
 #include "keys.h"
 #include <string.h>
-#include <Edb.h>
 #include <limits.h>
 #include <stdlib.h>
 #include <stdio.h>

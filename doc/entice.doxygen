@@ -199,7 +199,6 @@ $ cp winter.eet ~/.e/apps/entice/themes/
 @section requirements What does Entice require?
 
 Entice relies on a lot of libraries most notably
-  - Edb (library)
   - Eet (library)
   - Imlib2 (library)
   - Imlib2_loaders (library)
@@ -216,7 +215,7 @@ from cvs.
 @verbatim
 $ cvs -d:pserver:anonymous@cvs.enlightenment.sf.net:/cvsroot/enligtenment login
 $ cvs -d:pserver:anonymous@cvs.enlightenment.sf.net:/cvsroot/enligtenment \
-co e17/libs/edb e17/libs/eet e17/libs/imlib2 e17/libs/imlib2_loaders \
+co e17/libs/eet e17/libs/imlib2 e17/libs/imlib2_loaders \
 e17/libs/evas e17/libs/ecore e17/libs/edje e17/libs/epeg e17/libs/epsilon \
 e17/libs/esmart e17/apps/entice
 @endverbatim
@@ -224,11 +223,6 @@ e17/libs/esmart e17/apps/entice
 That should fetch all the libraries you'll need to run entice.
 
 <ol>
-<li>You need Edb from cvs
-@verbatim
-$  cd e17/libs/edb; ./autogen.sh; make; sudo make install
-@endverbatim
-</li>
 <li>You need Eet from cvs
 @verbatim
 $  cd e17/libs/eet; ./autogen.sh; make; sudo make install

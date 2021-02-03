@@ -5,7 +5,6 @@ INCLUDES = \
 	@IMLIB2_CFLAGS@ \
 	@ESMART_CFLAGS@ \
 	@EVAS_CFLAGS@ \
-	@EDB_CFLAGS@ \
 	@ECORE_CFLAGS@ \
 	@EPSILON_CFLAGS@ \
 	@EDJE_CFLAGS@
@@ -30,7 +29,6 @@ entice_LDADD = \
 -lesmart_thumb \
 -lesmart_trans_x11 \
 @EVAS_LIBS@ \
-@EDB_LIBS@ \
 @ECORE_LIBS@ \
 @EDJE_LIBS@ \
 -lm -lc

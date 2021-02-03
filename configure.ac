@@ -79,11 +79,6 @@ AC_PATH_GENERIC(evas, 0.9.9,
   [ AC_MSG_ERROR(Cannot find evas) ]
 )
 
-AC_PATH_GENERIC(edb, 1.0.0,
-  [ ],
-  [ AC_MSG_ERROR(Cannot find edb) ]
-)
-
 AC_PATH_GENERIC(ecore, 0.9.9,
   [ ],
   [ AC_MSG_ERROR(Cannot find ecore) ]
