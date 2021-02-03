@@ -2,7 +2,6 @@ COMPILING and INSTALLING:
 
 Prerequisites:
 e17/libs/eet
-e17/libs/epeg
 e17/libs/epsilon
 e17/libs/imlib2
 e17/libs/imlib2_loaders
